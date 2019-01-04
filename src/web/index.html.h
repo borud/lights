@@ -9,38 +9,37 @@ static const char* INDEX_HTML PROGMEM = R"=====(
   body {
     background-color: #3F395B;
   }
-	.slidecontainer {
-	width: 100%;
-	}
+
+  .slidecontainer {
+    width: 100%;
+  }
 	
-	.slider {
-	-webkit-appearance: none;
-	width: 100%;
-	height: 60px;
-	background: #E0E0FB;
-	outline: none;
-	opacity: 0.7;
-	-webkit-transition: .2s;
-	transition: opacity .2s;
-	}
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 60px;
+    background: #E0E0FB;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
 	
-	.slider::-webkit-slider-thumb {
-	-webkit-appearance: none;
-	appearance: none;
-	width: 60px;
-	height: 60px;
-	background: #E5E0FA;
-	cursor: pointer;
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 60px;
+    height: 60px;
+    background: #f4e242;
+    cursor: pointer;
     border-left: 2px solid #110934
     border-right: 2px solid #110934
-	}
+  }
 
-    #color-r { background: red; }
-    #color-g { background: green; }
-    #color-b { background: blue; }
-    #color-w { background: white; }
-
-	}
+  #color-r { background: red; }
+  #color-g { background: green; }
+  #color-b { background: blue; }
+  #color-w { background: white; }
   </style>
 </head>
 <body>
